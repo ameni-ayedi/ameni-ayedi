@@ -11,7 +11,7 @@
 
 - 🔭 I’m currently working on **facial expression recognition**
 
-- 🌱 I’m currently learning **qbout deep learning**
+- 🌱 I’m currently learning **about deep learning**
 
 - 💬 Ask me about **python**
 
