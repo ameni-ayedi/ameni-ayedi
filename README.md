@@ -15,7 +15,6 @@
 
 - 💬 Ask me about **python**
 
-- 📫 How to reach me **contact.ameniayedi@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
