@@ -6,10 +6,10 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ameni-ayedi&label=Profile%20views&color=0e75b6&style=flat" alt="ameni-ayedi" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ameni-ayedi" alt="ameni-ayedi" /></a> </p>
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
+<img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
 
 
-- 🔭 I’m currently working on **facial expression recognition**
+- 🔭 I’m currently working on **garbage classification**
 
 - 🌱 I’m currently learning **about deep learning**
 
