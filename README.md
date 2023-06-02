@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ameni Ayedi</h1>
-<h3 align="center">A motivated first-year engineering student</h3>
+<h3 align="center">A motivated second-year engineering student</h3>
 
 
 
