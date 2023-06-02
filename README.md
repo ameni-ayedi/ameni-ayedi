@@ -6,7 +6,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ameni-ayedi&label=Profile%20views&color=0e75b6&style=flat" alt="ameni-ayedi" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ameni-ayedi" alt="ameni-ayedi" /></a> </p>
-<img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/2646423/screenshots/5507196/computer.gif">
+<img align="right" alt="Coding" width="400" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgfycat.com%2Fadmiredficklechevrotain-mobile-app-development-frameworks&psig=AOvVaw0PXts48dki3M0VjxHoFmux&ust=1685806945116000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICC0bP2pP8CFQAAAAAdAAAAABAE">
 
 
 - 🔭 I’m currently working on **garbage classification**
