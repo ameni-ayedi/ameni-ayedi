@@ -6,7 +6,7 @@ import json
 GITHUB_USERNAME = "ameni-ayedi"
 
 # Fetch GitHub repository statistics
-url = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
+url = f"https://api.github.com/users/ameni-ayedi/repos"
 response = requests.get(url)
 repos = json.loads(response.text)
 
