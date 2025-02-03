@@ -1,32 +1,33 @@
-<h1 align="center">Hi 👋, I'm Ameni Ayedi</h1>
-<h3 align="center">A motivated second-year engineering student</h3>
+import matplotlib.pyplot as plt
+import requests
+import json
 
+# Replace with your GitHub username
+GITHUB_USERNAME = "yourusername"
 
+# Fetch GitHub statistics
+url = f"https://api.github.com/users/{GITHUB_USERNAME}/repos"
+response = requests.get(url)
+repos = json.loads(response.text)
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ameni-ayedi&label=Profile%20views&color=0e75b6&style=flat" alt="ameni-ayedi" /> </p>
+# Extract data (repo names and stars)
+repo_names = [repo["name"] for repo in repos[:5]]  # Top 5 repos
+repo_stars = [repo["stargazers_count"] for repo in repos[:5]]
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ameni-ayedi" alt="ameni-ayedi" /></a> </p>
-<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif">
+# Create a bar plot for stars per repo
+plt.figure(figsize=(8, 4))
+plt.barh(repo_names, repo_stars, color="skyblue")
+plt.xlabel("Stars")
+plt.ylabel("Repositories")
+plt.title(f"GitHub Stars for {GITHUB_USERNAME}")
+plt.gca().invert_yaxis()
+plt.savefig("github_stats.png")  # Save the plot as an image
 
-
-- 🔭 I’m currently working on **garbage classification**
-
-- 🌱 I’m currently learning **about deep learning**
-
-- 💬 Ask me about **python**
-
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/ameni ayedi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ameni ayedi" height="30" width="40" /></a>
-<a href="https://fb.com/ameni ayedi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="ameni ayedi" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ameni-ayedi&show_icons=true&locale=en&layout=compact" alt="ameni-ayedi" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ameni-ayedi&show_icons=true&locale=en" alt="ameni-ayedi" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ameni-ayedi&" alt="ameni-ayedi" /></p>
+# Create a contribution pie chart (example data)
+plt.figure(figsize=(4, 4))
+contributions = [70, 20, 10]  # Example: Code, Issues, PRs
+labels = ["Code", "Issues", "PRs"]
+plt.pie(contributions, labels=labels, autopct="%1.1f%%", colors=["blue", "green", "red"])
+plt.title("GitHub Contribution Breakdown")
+plt.savefig("github_contributions.png")  # Save the plot as an image
+plt.show()
