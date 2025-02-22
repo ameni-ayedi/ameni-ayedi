@@ -1,5 +1,5 @@
 <!-- Banner Image -->
-<img src="https://th.bing.com/th/id/R.16895b231b6da505e2e4acef02a3c1fe?rik=uHHnR4nMDQvVmw&pid=ImgRaw&r=0" alt="Banner" width="600" height="200">
+<img src="https://th.bing.com/th/id/R.16895b231b6da505e2e4acef02a3c1fe?rik=uHHnR4nMDQvVmw&pid=ImgRaw&r=0" alt="Banner" width="700" height="300">
 
 # 👋 Hi there! I'm Ameni AYEDI
 
