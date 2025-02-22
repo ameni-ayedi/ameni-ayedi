@@ -10,7 +10,7 @@ Welcome to my GitHub profile! I'm passionate about **AI, machine learning, and d
 - **Data Visualization:** Matplotlib, Seaborn, Plotly  
 
 ## 📊 GitHub Stats  
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=dark)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ameni-ayedi&show_icons=true&theme=dark)  
 
 ## 🏆 Top Languages  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=dark)  
