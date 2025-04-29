@@ -10,7 +10,6 @@
 ---
 
 
-I'm an advanced technology engineer with a passion for AI, machine learning, and data science. 🚀
 
 💡 **Interests:** AI, NLP, and predictive modeling
 
