@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=60&pause=1000&color=F58C78&vCenter=true&width=850&height=80&lines=Hello+World!+I'm+Ameni+" alt="Typing SVG" />
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80" height="80" alt="Waving Hand" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=50&pause=1000&color=F58C78&vCenter=true&width=730&height=70&lines=Hello+World!+I'm+Ameni+" alt="Typing SVG" />
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="70" height="70" alt="Waving Hand" />
 </p>
 
 
