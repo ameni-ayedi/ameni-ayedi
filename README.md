@@ -18,7 +18,7 @@
 ### 🚀 Skills
 
 - **Programming:** Python, SQL  
-- **Machine Learning:** Scikit-learn, TensorFlow, PyTorch  
+- **Machine Learning:** Scikit-learn, TensorFlow, PyTorch, Hugging Face 🤗
 - **Data Visualization:** Matplotlib, Seaborn, Plotly
 
 ---
